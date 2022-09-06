@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="484.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ctrl.ManagerController">
+   <children>
+       <TextField fx:id="nume" layoutX="36.0" layoutY="339.0" promptText="Nume" />
+       <TextField fx:id="ora" layoutX="212.0" layoutY="339.0" promptText="Ora" />
+       <ListView fx:id="spectacole" layoutX="475.0" layoutY="50.0" onMouseClicked="#showHandler" prefHeight="382.0" prefWidth="170.0" />
+       <Label layoutX="514.0" layoutY="20.0" text="Spectacolele:" />
+       <TableView fx:id="locuri" layoutX="24.0" layoutY="20.0" prefHeight="298.0" prefWidth="444.0">
+           <columns>
+               <TableColumn prefWidth="86.40003967285156" text="Nr">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="nr" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="236.00006103515625" text="Pozitie">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="pozitie" />
+                   </cellValueFactory>
+               </TableColumn>
+               <TableColumn prefWidth="95.199951171875" text="Pret">
+                   <cellValueFactory>
+                       <PropertyValueFactory property="pret" />
+                   </cellValueFactory>
+               </TableColumn>
+           </columns>
+       </TableView>
+       <Button fx:id="adauga" layoutX="36.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleAdaugaSpectacol" prefHeight="26.0" prefWidth="82.0" text="Adauga" visible="true" />
+       <Button fx:id="modifica" layoutX="271.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleModificare" prefHeight="26.0" prefWidth="82.0" text="Modifica" visible="true" />
+       <Button fx:id="sterge" layoutX="151.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleDeleteSpectacol" prefHeight="26.0" prefWidth="82.0" text="Sterge" visible="true" />
+   </children>
+</AnchorPane>

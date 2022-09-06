@@ -1,0 +1,19 @@
+
+—
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ÂÔú
+7
+java:S1659"!Declare "ora" on a separate line.(Å»®Û
+`
+java:S1659"EDeclare "modifica" and all following declarations on a separate line.(ƒÇüŒÿÿÿÿÿ
+M
+java:S1172,"2Remove this unused method parameter "actionEvent".( ˆ™Ÿúÿÿÿÿ
+M
+java:S1172="2Remove this unused method parameter "actionEvent".(Þœð÷þÿÿÿÿ
+G
+java:S1172O"2Remove this unused method parameter "actionEvent".(¬ð¾z
+F
+java:S1172f"1Remove this unused method parameter "mouseEvent".(Ø«ÌW
+l
+java:S11929"VDefine a constant instead of duplicating this literal "Operation successful!" 3 times.(á×òå
+\
+java:S11928"FDefine a constant instead of duplicating this literal "Good " 3 times.(‰‘ãŒ

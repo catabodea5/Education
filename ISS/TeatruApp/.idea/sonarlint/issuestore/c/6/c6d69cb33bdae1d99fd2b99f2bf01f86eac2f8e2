@@ -1,0 +1,16 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(î®‰Èÿÿÿÿÿ
+V	java:S125H"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+W	java:S125£"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+T	java:S106»"9Replace this use of System.out or System.err by a logger.(¤Äåãşÿÿÿÿ
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+W	java:S125é"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+=
+java:S1481§"&Remove this unused "s" local variable.(—òŸ…
+W	java:S125±"<This block of commented-out lines of code should be removed.(ıß³Àûÿÿÿÿ
+=
+java:S1068"'Remove this unused "url" private field.(¬Ôìš
+Z
+java:S1155İ">Use isEmpty() to check whether the collection is empty or not.(¬ù×ùÿÿÿÿ
